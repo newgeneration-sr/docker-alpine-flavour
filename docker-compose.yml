@@ -1,0 +1,9 @@
+
+version: '3'
+services:
+  grav:
+    image: dotriver/flavour
+    ports:
+      - 8080:80
+    networks:
+      default:
